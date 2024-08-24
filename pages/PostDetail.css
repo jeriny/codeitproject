@@ -1,0 +1,194 @@
+.PD-title{
+    position: absolute;
+    top: 200px;
+    left: 180px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37.56px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+.PD-tags{
+    position: absolute;
+    top:258px;
+    left:180px;
+    color: #B8B8B8;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.54px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.PD-btm-info {
+    position: absolute; 
+    top: 343px;        
+    left: 180px;        
+    display: flex;      
+    align-items: center; 
+}
+
+.PD-btm-info p {
+    margin: 0; 
+}
+
+.PD-btm-info p:first-child {
+    margin-right: 10px;
+}
+
+.PD-btm-info p:nth-child(2) {
+    margin-right: 20px;
+}
+
+.PD-top-info {
+    position: absolute; 
+    top: 160px;        
+    left: 180px;        
+    display: flex;      
+    align-items: center; 
+}
+
+.PD-top-info p {
+    margin: 0; 
+}
+
+.PD-top-info p:first-child {
+    margin-right: 20px;
+}
+
+.PD-ispublic-info{
+    color: #B8B8B8;
+}
+
+
+.PD-send-like-btn{
+    position: absolute;
+    width: 187.88px;
+    height: 52px;
+    top: 311px;
+    left: 1552px;
+    padding: 15px 40px 15px 40px;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    
+    background: #FAFAFA;
+    border: 1px solid #282828;
+  
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.03px;
+    letter-spacing: -0.03em;
+    text-align: center;
+  
+}
+.PD-edit-btn{
+    border:none;
+    background-color: #FAFAFA;
+    color:#282828;
+    position:absolute;
+    width: 120px;
+    height: 18px;
+    top: 170px;
+    left: 1516px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.53px;
+    letter-spacing: -0.03em;
+    text-align: center;
+  }
+  
+.PD-delete-btn{
+    border:none;
+    background-color: #FAFAFA;
+    color:#8D8D8D;
+    position:absolute;
+    width: 100px;
+    height: 18px;
+    top: 170px;
+    left: 1662px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.53px;
+    letter-spacing: -0.03em;
+    text-align: center;
+  
+}
+
+.PD-post-image{
+    position:absolute;
+    width: 780px;
+    height: 780px;
+    top: 483px;
+    left: 570px;
+    gap: 0px;
+    border-radius: 6px;
+    opacity: 0px;
+
+}
+
+
+
+.PD-post-content-wrapper {
+    position: absolute; 
+    top: 1323px; 
+    left: 180px; 
+    width:1560px;
+}
+
+.PD-post-content {
+    width: 750px;
+    position:relative; 
+    left:380px;
+    box-sizing: border-box; 
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    white-space: pre-line;
+
+}
+
+.PD-comment-btn {
+    position: absolute;
+    left: 571px; 
+    margin-top: 100px; 
+    width: 400px;
+    height: 50px;
+    gap: 0px;
+    border-radius: 6px;
+    opacity: 0px;
+    background-color: #282828;
+    color:#FAFAFA;
+}
+
+.PD-hr-post{
+    position: absolute;
+    width: 1560px;
+    top: 423px;
+    left: 180px;
+    gap: 0px;
+    opacity: 0.5px;
+    border: 1px solid #DDDDDD;
+}
+
+.PD-comment-wrapper{
+    width:100%;
+    position: relative;  /* relative로 설정해 기본 위치에서 아래로 이동 */
+    margin-bottom:200px;    /* PD-comment-btn 아래로 80px 떨어지도록 설정 */
+}
+
+.PD-post-comment-box{
+    width:1560px;
+    left: 180px; 
+}
+
+.PD-post-box{
+    margin-bottom: 300px;
+}

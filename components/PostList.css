@@ -1,0 +1,183 @@
+
+.PL-sort-dropdown {
+    width: 160px;
+    height: 45px;
+    position: absolute;
+    top: 778px;
+    left: 1580px;
+    border: 1px solid #282828;
+    opacity: 1;
+    background-color: white;
+    padding: 0;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 700;
+    line-height: 17.53px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.PL-post-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 883px;  /* 그룹 리스트보다 상단 여백을 더 크게 유지 */
+    margin-left: 180px; /* 그룹 리스트와 동일 */
+    margin-bottom: 60px; /* 그룹 리스트와 일치시킴 */
+    position: relative;  /* 그대로 유지 */
+}
+
+.PL-post-item {
+    width: 375px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #DDDDDD;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* 그룹 리스트와 동일하게 맞춤 */
+}
+
+.PL-post-image {
+    width: 100%;  /* 그룹 리스트 이미지와 동일한 너비로 설정 */
+    height: auto;
+    border-radius: 6px; /* 그룹 리스트와 동일 */
+    margin-bottom: 10px; /* 그룹 리스트와 일치 */
+    position: static; /* 그룹 리스트와 동일하게 변경 */
+}
+
+
+.PL-post-item-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.PL-post-icon-img {
+    position: absolute;
+    top: 943px;
+    left: 910px;
+}
+
+.PL-none-post-text {
+    position: absolute;
+    top: 1083px;
+    left: 874px;
+    color: #8D8D8D;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.54px;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
+.PL-make-post-text {
+    position: absolute;
+    color: #B8B8B8;
+    top: 1126px;
+    left: 885px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.PL-register-post-btn-center {
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    top: 1324px;
+    left: 760px;
+    gap: 0px;
+    border-radius: 6px;
+    opacity: 0px;
+    background-color: #282828;
+    color: #FAFAFA;
+    margin-bottom: 300px; 
+}
+
+.PL-show-public-post {
+    position: absolute;
+    width: 66px;
+    height: 45px;
+    top: 778px;
+    left: 180px;
+    gap: 0px;
+    border: none;
+    border-radius: 22.5px;
+    opacity: 0px;
+}
+
+.PL-show-private-post {
+    position: absolute;
+    width: 66px;
+    height: 45px;
+    left: 256px;
+    top: 778px;
+    border-radius: 22.5px;
+    color: #282828;
+    background-color: #FAFAFA;
+    border: none;
+}
+
+.PL-show-public-post.active {
+    background-color: #282828;
+    color: #FFFFFF;
+}
+
+.PL-show-private-post.active {
+    background-color: #282828;
+    color: #FFFFFF;
+}
+
+.PL-show-public-post.inactive {
+    background-color: #FFFFFF;
+    color: #282828;
+}
+
+.PL-show-private-post.inactive {
+    background-color: #FFFFFF;
+    color: #282828;
+}
+
+.PL-search-post {
+    position: absolute;
+    width: 1186px;
+    height: 45px;
+    top: 778px;
+    left: 354px;
+    gap: 0px;
+    border-radius: 6px;
+    background: #F4F4F4;
+    opacity: 1;
+}
+
+.PL-search-bar-post {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: #F4F4F4;
+    padding-left: 15px;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+}
+
+.PL-search-bar-post::placeholder {
+    color: #B0B0B0;
+}
+
+.PD-load-more-container {
+    margin-bottom: 100px; 
+    text-align: center; 
+}
+
+.PD-load-more-btn {
+    width: 1560px;
+    height: 60px;
+    border: 1px solid #282828;
+    background: #FAFAFA;
+    position: relative; 
+    margin: 0 auto; 
+}
